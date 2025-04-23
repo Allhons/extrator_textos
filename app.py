@@ -8,7 +8,7 @@ import re
 
 
 # Windows: Descomente e configure se necessário C:\Program Files\Tesseract-OCR
-pytesseract.pytesseract.tesseract_cmd = "C:/Users/Allyson/Desktop/Itapevi Insights/Test/Tesseract-OCR/tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = "Tesseract-OCR/tesseract.exe"
 
 st.title("🧠 Extrator de textos")
 st.write("Faça upload de ou ou mais imagens, e o sistema extrai colunas (em MAIÚSCULAS com `:`) e organiza os dados em um DataFrame único.")
