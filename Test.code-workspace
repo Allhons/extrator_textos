@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../extrator_texto"
+		},
+		{
+			"path": "../../../../../Program Files/Tesseract-OCR"
+		}
+	],
+	"settings": {}
+}
