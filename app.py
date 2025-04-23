@@ -23,7 +23,7 @@ if uploaded_files:
         st.subheader(f"📷 Imagem: {uploaded_file.name}")
         file_bytes = np.asarray(bytearray(uploaded_file.read()), dtype=np.uint8)
         imagem = cv2.imdecode(file_bytes, 1)
-        st.image(imagem, caption=uploaded_file.name, use_column_width=True)
+        st.image(imagem, caption=uploaded_file.name, use_container_width=True)
 
         # OCR
         texto = pytesseract.image_to_string(imagem, lang="por")
