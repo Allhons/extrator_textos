@@ -1,7 +1,6 @@
-streamlit
-cv2
-numpy
+streamlit>=1.25
 pytesseract
+opencv-python
 pandas
-io
-re
+openpyxl
+numpy
