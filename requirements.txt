@@ -1,0 +1,7 @@
+streamlit
+cv2
+numpy
+pytesseract
+pandas
+io
+re
